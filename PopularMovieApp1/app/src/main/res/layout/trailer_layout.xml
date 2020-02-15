@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbars="horizontal"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/Trailer_MovieImage_IV"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:src="@drawable/youtubeicon" />
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/TrailerTitle_TV"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+       android:layout_gravity="center_horizontal"
+        android:textAppearance="@color/colorPrimaryDark"
+
+        android:layout_height="wrap_content" />
+
+   </LinearLayout>

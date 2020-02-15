@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#010203"
+    android:padding="0dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/MovieImage_IV"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+         />
+
+    <TextView
+        android:id="@+id/MovieTitle_TV"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:textAppearance="@color/colorPrimaryDark"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:padding="2dp"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Popularity : "
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/MoviePopularity_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/MovieOverview_TV"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="2dp"
+        android:orientation="vertical">
+        <TextView
+            android:text="Release Date : "
+            android:textSize="15sp"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/MovieReleaseDate_TV"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+android:textSize="15sp"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

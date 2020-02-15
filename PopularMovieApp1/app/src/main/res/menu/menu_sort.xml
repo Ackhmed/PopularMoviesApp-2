@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!--COMPLETED (3) Add one item to the menu with an ID of action_refresh-->
+    <!--COMPLETED (4) Set the title of the menu item to "Refresh" using strings.xml-->
+    <item
+        android:id="@+id/sort_vote"
+        android:orderInCategory="1"
+        android:title="@string/sort_by_vote"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/sort_favourite"
+        android:orderInCategory="1"
+        android:title="Show Favourites"
+        app:showAsAction="collapseActionView"
+        />
+</menu>

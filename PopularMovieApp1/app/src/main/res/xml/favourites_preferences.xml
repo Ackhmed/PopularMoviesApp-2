@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_mid_range_default"
+        android:key="favourite_checked"
+        android:summaryOff="@string/fav_show_false"
+        android:summaryOn="@string/fav_show_true"
+        android:title="@string/favourite_label" />-->
+
+</androidx.preference.PreferenceScreen>

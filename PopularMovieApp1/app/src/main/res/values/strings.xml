@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PopularMovieApp1</string>
+    <string name="sort_by_vote">Sort By Popularity</string>
+    <string name="popularity_count">Popularity Count:</string>
+    <string name="overview">Overview</string>
+    <string name="release_date">Release Date</string>
+    <string name="sort_by_favourite">Sort By Favourite</string>
+
+</resources>
